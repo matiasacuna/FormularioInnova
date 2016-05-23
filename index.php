@@ -37,6 +37,25 @@
                     <input type="email" name="email">
                 </label>
             </div>
+      
+            <div class="form-row">
+                <label>
+                    <span>Pie/Deposito</span>
+                    <input type="text" name="name">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Proyecto Innova</span>
+                    <select name="dropdown">
+                        <option value='1'>Innova I</option>
+                        <option value='2'>Innova II</option>
+                        <option value='3'>Innova III</option>
+                        <option value='4'>Innova IV</option>
+                    </select>
+                </label>
+            </div>
             
             <div class="form-row">
                 <label>
@@ -44,70 +63,81 @@
                     <input type="text" name="name">
                 </label>
             </div>
-            
+<div class="form-row">
+                <label><span>Metodo de pago</span></label>
+                <div class="form-radio-buttons">
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>Contado</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>Cuotas</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>Cheques</span>
+                        </label>
+                    </div>
+
+                </div>
+            </div>
             <div class="form-row">
                 <label>
-                    <span>Pie Deposito</span>
+                    <span>Comentarios</span>
+                    <textarea name="textarea"></textarea>
+                </label>
+            </div>
+
+       <div class="form-title-row">
+                <h1>Datos del cliente</h1>
+            </div>
+
+<div class="form-row">
+                <label>
+                    <span>Nombre Cliente</span>
                     <input type="text" name="name">
                 </label>
             </div>
 
             <div class="form-row">
                 <label>
-                    <span>Dropdown</span>
-                    <select name="dropdown">
-                        <option>Innova I</option>
-                        <option>Innova II</option>
-                        <option>Innova III</option>
-                        <option>Innova IV</option>
-                    </select>
+                    <span> RUT</span>
+                    <input type="email" name="email">
+                </label>
+            </div>
+            
+            <div class="form-row">
+                <label>
+                    <span>Telefono</span>
+                    <input type="text" name="name">
+                </label>
+            </div>
+            
+            <div class="form-row">
+                <label>
+                    <span>Mail contacto</span>
+                    <input type="text" name="name">
                 </label>
             </div>
 
             <div class="form-row">
                 <label>
-                    <span>Textarea</span>
-                    <textarea name="textarea"></textarea>
-                </label>
-            </div>
-
-            <div class="form-row">
-                <label>
-                    <span>Checkbox</span>
+                    <span>Previa reserva</span>
                     <input type="checkbox" name="checkbox" checked>
                 </label>
             </div>
 
             <div class="form-row">
-                <label><span>Radio</span></label>
-                <div class="form-radio-buttons">
-
-                    <div>
-                        <label>
-                            <input type="radio" name="radio">
-                            <span>Radio option 1</span>
-                        </label>
-                    </div>
-
-                    <div>
-                        <label>
-                            <input type="radio" name="radio">
-                            <span>Radio option 2</span>
-                        </label>
-                    </div>
-
-                    <div>
-                        <label>
-                            <input type="radio" name="radio">
-                            <span>Radio option 3</span>
-                        </label>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="form-row">
-                <button type="submit">Submit Form</button>
+                <button type="submit">Ingresar Formulario</button>
             </div>
 
         </form>
