@@ -1,10 +1,14 @@
 <script type="text/javascript">
 
 function yesnoCheck() {
+	if(document.getElementById('yesCheck1').checked) {
+        document.getElementById('ifYes2').style.display = 'block';
+    }
+    else document.getElementById('ifYes2').style.display = 'none';
+
     if (document.getElementById('yesCheck').checked) {
         document.getElementById('ifYes').style.display = 'block';
-    }
-    else document.getElementById('ifYes').style.display = 'none';
+    }else document.getElementById('ifYes').style.display = 'none';
 
 }
 </script>
@@ -93,7 +97,7 @@ function yesnoCheck() {
 
                     <div>
                         <label>
-                            <input type="radio"  onclick="javascript:yesnoCheck();" name="tipodepago" id="noCheck" value="cheques">
+                            <input type="radio"  onclick="javascript:yesnoCheck();" name="tipodepago" id="yesCheck1" value="cheques">
                             <span>Cheques</span>
                         </label>
                     </div>
@@ -104,6 +108,15 @@ function yesnoCheck() {
                                                 <option value="1">6</option>
                                                 <option value="2">12</option>
                                                 <option value="3">18</option>
+                                            </select>
+                                        </div>
+    				</div><div id="ifYes2" style="display:none">
+        						Numero de Cheques: 
+                                        <div class="form-group">
+                                            <select class="form-control" name="level">
+                                                <option value="1">3</option>
+                                                <option value="2">6</option>
+                                                <option value="3">12</option>
                                             </select>
                                         </div>
     									</div>
