@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Basic Form</title>
+	<title>Formulario de Ventas</title>
 
 	<link rel="stylesheet" href="assets/demo.css">
 	<link rel="stylesheet" href="assets/form-basic.css">
@@ -21,20 +21,34 @@
         <form class="form-basic" method="post" action="#">
 
             <div class="form-title-row">
-                <h1>Form Example</h1>
+                <h1>Formulario de Ventas</h1>
             </div>
 
             <div class="form-row">
                 <label>
-                    <span>Full name</span>
+                    <span>Nombre Vendedor</span>
                     <input type="text" name="name">
                 </label>
             </div>
 
             <div class="form-row">
                 <label>
-                    <span>Email</span>
+                    <span>Numero de identificacion</span>
                     <input type="email" name="email">
+                </label>
+            </div>
+            
+            <div class="form-row">
+                <label>
+                    <span>Numero de departamento</span>
+                    <input type="text" name="name">
+                </label>
+            </div>
+            
+            <div class="form-row">
+                <label>
+                    <span>Pie Deposito</span>
+                    <input type="text" name="name">
                 </label>
             </div>
 
@@ -42,10 +56,10 @@
                 <label>
                     <span>Dropdown</span>
                     <select name="dropdown">
-                        <option>Option One</option>
-                        <option>Option Two</option>
-                        <option>Option Three</option>
-                        <option>Option Four</option>
+                        <option>Innova I</option>
+                        <option>Innova II</option>
+                        <option>Innova III</option>
+                        <option>Innova IV</option>
                     </select>
                 </label>
             </div>
