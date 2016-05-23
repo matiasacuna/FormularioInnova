@@ -14,23 +14,6 @@
 
 </head>
 
-
-	<header>
-		<h1>Freebie: 7 Clean and Responsive Forms</h1>
-        <a href="http://tutorialzine.com/2015/07/freebie-7-clean-and-responsive-forms/">Download</a>
-    </header>
-
-    <ul>
-        <li><a href="index.html" class="active">Basic</a></li>
-        <li><a href="form-register.html">Register</a></li>
-        <li><a href="form-login.html">Login</a></li>
-        <li><a href="form-mini.html">Mini</a></li>
-        <li><a href="form-labels-on-top.html">Labels on Top</a></li>
-        <li><a href="form-validation.html">Validation</a></li>
-        <li><a href="form-search.html">Search</a></li>
-    </ul>
-
-
     <div class="main-content">
 
         <!-- You only need this form and the form-basic.css -->
