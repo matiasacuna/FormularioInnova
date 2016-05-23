@@ -1,3 +1,13 @@
+<script type="text/javascript">
+
+function yesnoCheck() {
+    if (document.getElementById('yesCheck').checked) {
+        document.getElementById('ifYes').style.display = 'block';
+    }
+    else document.getElementById('ifYes').style.display = 'none';
+
+}
+</script>
 <!DOCTYPE html>
 <html>
 
@@ -44,7 +54,7 @@
                     <input type="text" name="name">
                 </label>
             </div>
-
+	 
             <div class="form-row">
                 <label>
                     <span>Proyecto Innova</span>
@@ -69,25 +79,34 @@
 
                     <div>
                         <label>
-                            <input type="radio" name="radio">
+                            <input type="radio" onclick="javascript:yesnoCheck();" name="tipodepago" id="noCheck" value="contado">
                             <span>Contado</span>
                         </label>
                     </div>
 
                     <div>
                         <label>
-                            <input type="radio" name="radio">
+                            <input type="radio" onclick="javascript:yesnoCheck();" name="tipodepago" id="yesCheck" value="cuotas">
                             <span>Cuotas</span>
                         </label>
                     </div>
 
                     <div>
                         <label>
-                            <input type="radio" name="radio">
+                            <input type="radio"  onclick="javascript:yesnoCheck();" name="tipodepago" id="noCheck" value="cheques">
                             <span>Cheques</span>
                         </label>
                     </div>
-
+					<div id="ifYes" style="display:none">
+        						Cantidad de cuotas: 
+                                        <div class="form-group">
+                                            <select class="form-control" name="level">
+                                                <option value="1">6</option>
+                                                <option value="2">12</option>
+                                                <option value="3">18</option>
+                                            </select>
+                                        </div>
+    									</div>
                 </div>
             </div>
             <div class="form-row">
